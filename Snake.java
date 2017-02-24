@@ -1,5 +1,5 @@
 public class Snake {
-    private String name = "Snake";
+    private String name = "Snake1";
     private int x = 10;
     private int y = 1;
     
