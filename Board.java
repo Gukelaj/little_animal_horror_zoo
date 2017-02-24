@@ -3,7 +3,11 @@ public class Board {
  
         Rabbit r = new Rabbit();
         Snake s = new Snake();
-
+      
+        // Random Start Position
+        // r.setRandomStart();
+        // s.setRandomStart();
+       
         // Demo
         r.moveDown();
         s.moveLeft();
