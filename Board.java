@@ -37,10 +37,9 @@ public class Board {
         r.moveRight();
         s.moveLeft();
     
-    String getLocationR2 = r.getLocation();
-    String getLocationS2 = s.getLocation();
 
-    if (getLocationR2.equals(getLocationS2)) {
+
+    if (getLocationR.equals(getLocationS)) {
         r.askForMercy();
         s.killRabbit();
         }
